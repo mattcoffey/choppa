@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/arnie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.12"
+        android:src="@drawable/arnie" android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO"
+        android:textSize="52dp" android:layout_gravity="center"/>
+
+</LinearLayout>
